@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3623015400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hello.precondition1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 159981200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hello.precondition2()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "To validate the login functionality with invalid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionlity-of-icici-bank-application;to-validate-the-login-functionality-with-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 119800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hello.postcondition2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hello.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2418395200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chrome browser and maximize the windows",
+            "match": {
+              "location": "Icici.to_launch_the_chrome_browser_and_maximize_the_windows()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7637612000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch url of Icici application",
+            "match": {
+              "location": "Icici.to_launch_url_of_Icici_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3286293600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To click the arrow",
+            "match": {
+              "location": "Icici.to_click_the_arrow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3212371400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass email in username field",
+            "match": {
+              "location": "Icici.to_pass_email_in_username_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176757200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass password in password field",
+            "match": {
+              "location": "Icici.to_pass_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4344894800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click on login",
+            "match": {
+              "location": "Icici.to_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683675200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To close the browser",
+            "match": {
+              "location": "Icici.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionlity of icici bank application",
+    "description": "",
+    "id": "to-validate-the-login-functionlity-of-icici-bank-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Icici.feature",
+    "tags": []
+  }
+]
